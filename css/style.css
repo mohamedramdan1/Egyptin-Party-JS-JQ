@@ -1,0 +1,262 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+:root {
+  scroll-behavior: auto;
+}
+
+.home {
+  background-image: url(../images/events-heavenly-header.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center center;
+  color: white;
+  height: 660px;
+  position: relative;
+}
+
+.bg-home {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(214, 46, 51, 0.6);
+}
+
+.home-content {
+  transition: 0.5s;
+}
+
+.home-content-inner {
+  padding: 16px;
+  height: 70vh;
+}
+
+.home-content-inner h2 {
+  font-size: 60px;
+}
+
+.home .iconbar {
+  color: white;
+  font-size: 30px;
+  padding: 10px;
+  margin-bottom: 5px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transition: 0.5s;
+}
+
+.home i,
+.home span {
+  cursor: pointer;
+}
+
+aside {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+aside .sidebar-box {
+  background-color: #111;
+  padding-top: 60px;
+  z-index: 1;
+  height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+aside a {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 20px 8px 20px 32px;
+  transition: color 0.4s;
+}
+
+aside .closebtn {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  font-size: 36px;
+  margin-left: 50px;
+  cursor: pointer;
+}
+
+aside a:hover {
+  color: rgba(214, 46, 51, 0.4);
+}
+
+
+
+
+.section-2 h3 {
+  padding: 10px;
+  margin: 0;
+  background-color: rgba(214, 46, 51, 0.6);
+  cursor: pointer;
+  color: white;
+}
+
+.section-2 .first {
+  display: block;
+}
+
+.section-2 div {
+  padding: 10px;
+  background-color: #ccc;
+  display: none;
+}
+
+.section-3 {
+  background-image: linear-gradient(rgba(214, 46, 51, 0.6) 0 100%), url(../images/invitation-2508607__340.jpg);
+  background-position: center center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 330px;
+}
+
+.section-3 .container {
+  padding: 100px 0px;
+}
+
+.section-3 .timer-count {
+  padding: 50px;
+  border: 1px solid #FFF;
+  font-size: 30px;
+  font-weight: 500;
+  color: white;
+}
+
+@media all and (min-width: 1400px) {
+
+  .container-xxl,
+  .container-xl,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container {
+    max-width: 1140px;
+  }
+}
+
+
+.section-4 {
+  margin-top: 100px;
+}
+
+.section-4 .container {
+  padding: 100px 0;
+}
+
+.section-4 h2 {
+  font-size: 35px;
+  color: #444;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.section-4 .head p {
+  color: #777;
+  font-weight: 300;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.section-4 .contacat h3 {
+  color: #444;
+  font-size: 18px;
+}
+
+.section-4 .contacat p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #777;
+  text-align: center;
+}
+
+.section-4 .contact-info {
+  margin-top: 50px;
+  padding-top: 10px;
+}
+
+.section-4 .contact-info p {
+  margin-bottom: 35px;
+}
+
+.section-4 .contact-info i {
+  margin-right: 25px;
+}
+
+.section-4 .contact-info .red {
+  color: red;
+}
+
+.section-4 .social-links {
+  margin-top: 60px;
+  color: #777;
+}
+
+
+.section-4 .social-links i {
+  margin-right: 10px;
+  border: 1px solid #999;
+  width: 40px;
+  height: 40px;
+  line-height: 42px;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.3s;
+}
+
+.section-4 .social-links i:hover {
+  background-color: #D62E33;
+  color: white;
+}
+
+.section-4 form input,
+.section-4 form textarea {
+  margin-bottom: 20px;
+  border-radius: 0;
+}
+
+.section-4 form textarea {
+  height: 200px;
+  resize: vertical;
+}
+
+.section-4 form button {
+  background-color: #D62E33;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 0;
+  margin-top: 30px
+}
+
+.section-4 form button:hover {
+  background-color: #D62E33;
+  color: #fff;
+  text-decoration: none;
+}
+
+
+.section-4 form button:focus {
+  outline: 0;
+  box-shadow: 0 0 0 .2rem rgba(0, 123, 255, .25);
+}
+
+
+.section-4 .charcter {
+  font-size: 20px;
+  color: #D62E33;
+}
